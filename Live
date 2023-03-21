@@ -1,0 +1,54 @@
+
+
+
+	<script>
+
+		const form = document.querySelector('form');
+
+		form.addEventListener('submit', (event) => {
+
+			event.preventDefault();
+
+			const email = document.querySelector('#email').value;
+
+			const message = document.querySelector('#message').value;
+
+			const url = 'mailto:krishkumarhigh@gmail.com?subject=' + encodeURIComponent('Message from ' + email) + '&body=' + encodeURIComponent(message);
+
+			window.location.href = url;
+
+		});
+
+	</script>
+  
+  
+  
+
+
+
+
+
+;
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
